@@ -1,0 +1,1228 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "casman",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/CaseGeneral/details": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "parameters": [
+          {
+            "name": "caseId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "subId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CaseGeneralDetailDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CaseGeneralDetailDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CaseGeneralDetailDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral/case-types": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral/mdu-liability": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "parameters": [
+          {
+            "name": "caseType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "parameters": [
+          {
+            "name": "tableName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "value",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral/handler1": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "parameters": [
+          {
+            "name": "tableName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "value",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral/categories": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CategoryDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CategoryDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CategoryDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral/practice-areas": {
+      "get": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CaseGeneral/update-case": {
+      "put": {
+        "tags": [
+          "CaseGeneral"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CaseEditGeneralDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CaseEditGeneralDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CaseEditGeneralDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CaseSearch": {
+      "get": {
+        "tags": [
+          "CaseSearch"
+        ],
+        "parameters": [
+          {
+            "name": "caseId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "subId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CaseDetailDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CaseDetailDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CaseDetailDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CreateCase/specialities": {
+      "get": {
+        "tags": [
+          "CreateCase"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SpecialityDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SpecialityDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SpecialityDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CreateCase/indemnifiers": {
+      "get": {
+        "tags": [
+          "CreateCase"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IndemnifierDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IndemnifierDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IndemnifierDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/CreateCase/create": {
+      "post": {
+        "tags": [
+          "CreateCase"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCaseDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCaseDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateCaseDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GetPractitioner": {
+      "get": {
+        "tags": [
+          "GetPractitioner"
+        ],
+        "parameters": [
+          {
+            "name": "caseId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "subId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GetPractitioner/nonmember/{pracNumber}": {
+      "get": {
+        "tags": [
+          "GetPractitioner"
+        ],
+        "parameters": [
+          {
+            "name": "pracNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GetPractitioner/add": {
+      "post": {
+        "tags": [
+          "GetPractitioner"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PractitionerInsertModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PractitionerInsertModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PractitionerInsertModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Students": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Student"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Students"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Students/{id}": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Student"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CaseDetailDto": {
+        "required": [
+          "caseId"
+        ],
+        "type": "object",
+        "properties": {
+          "caseId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "subId": {
+            "type": "string",
+            "nullable": true
+          },
+          "shared_Case": {
+            "type": "string",
+            "nullable": true
+          },
+          "staT_DESC": {
+            "type": "string",
+            "nullable": true
+          },
+          "praC_LAST_NAME": {
+            "type": "string",
+            "nullable": true
+          },
+          "stafF_NAME": {
+            "type": "string",
+            "nullable": true
+          },
+          "liaB_DESC": {
+            "type": "string",
+            "nullable": true
+          },
+          "praC_NUM": {
+            "type": "string",
+            "nullable": true
+          },
+          "extsol": {
+            "type": "string",
+            "nullable": true
+          },
+          "patient": {
+            "type": "string",
+            "nullable": true
+          },
+          "prodType": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CaseEditGeneralDto": {
+        "type": "object",
+        "properties": {
+          "caseId": {
+            "type": "string",
+            "nullable": true
+          },
+          "subId": {
+            "type": "string",
+            "nullable": true
+          },
+          "nCaseType": {
+            "type": "string",
+            "nullable": true
+          },
+          "liabilityDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "sharedCase": {
+            "type": "boolean"
+          },
+          "redactCase": {
+            "type": "boolean"
+          },
+          "incdtDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dateClaim": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "openDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "deptId": {
+            "type": "string",
+            "nullable": true
+          },
+          "staffId1": {
+            "type": "string",
+            "nullable": true
+          },
+          "staffId2": {
+            "type": "string",
+            "nullable": true
+          },
+          "staffId3": {
+            "type": "string",
+            "nullable": true
+          },
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "spcltyDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracAreaDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "classDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "areaCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "hptlLoc": {
+            "type": "string",
+            "nullable": true
+          },
+          "facPostcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "mFicheNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "lockNo": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseDocumentStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "legalCaseDocumentStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "doiStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "barcodeId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CaseGeneralDetailDto": {
+        "type": "object",
+        "properties": {
+          "typeDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "incdtDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "liabilityDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "openDate": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateClaim": {
+            "type": "string",
+            "nullable": true
+          },
+          "sharedCase": {
+            "type": "boolean"
+          },
+          "redactCase": {
+            "type": "boolean"
+          },
+          "deptName": {
+            "type": "string",
+            "nullable": true
+          },
+          "staffName1": {
+            "type": "string",
+            "nullable": true
+          },
+          "staffName2": {
+            "type": "string",
+            "nullable": true
+          },
+          "staffName3": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "spcltyDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracAreaDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "classDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "areaDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "hptlLoc": {
+            "type": "string",
+            "nullable": true
+          },
+          "facPostcode": {
+            "type": "string",
+            "nullable": true
+          },
+          "barcodeId": {
+            "type": "string",
+            "nullable": true
+          },
+          "mficheNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "legalCaseDocumentStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "prodType": {
+            "type": "boolean"
+          },
+          "doiStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "caseCreateSource": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoryDto": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "valid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateCaseDto": {
+        "type": "object",
+        "properties": {
+          "surname": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "initials": {
+            "type": "string",
+            "nullable": true
+          },
+          "sex": {
+            "type": "string",
+            "nullable": true
+          },
+          "defOrg": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IndemnifierDto": {
+        "type": "object",
+        "properties": {
+          "defOrg": {
+            "type": "string",
+            "nullable": true
+          },
+          "defOrgName": {
+            "type": "string",
+            "nullable": true
+          },
+          "valid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PractitionerInsertModel": {
+        "type": "object",
+        "properties": {
+          "caseId": {
+            "type": "string",
+            "nullable": true
+          },
+          "subId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ptNum": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracRole": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pracDefOrg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pracLastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracFirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracInit": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracSex": {
+            "type": "string",
+            "nullable": true
+          },
+          "pracTow": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pracInvl": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "dateInvolved": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dateNotified": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dateClaimMade": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dateNonIrishClaimMade": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "pracSource": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "coverType": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddrApplicable": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddrCovertype": {
+            "type": "string",
+            "nullable": true
+          },
+          "charmPolicyNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "charmPolicyVersion": {
+            "type": "string",
+            "nullable": true
+          },
+          "groupTypeDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "groupnum": {
+            "type": "string",
+            "nullable": true
+          },
+          "organisation": {
+            "type": "string",
+            "nullable": true
+          },
+          "memberEntitled": {
+            "type": "string",
+            "nullable": true
+          },
+          "prodRefNo_SubSegCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "donPolSelection": {
+            "type": "string",
+            "nullable": true
+          },
+          "privateGPClaims": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SpecialityDto": {
+        "type": "object",
+        "properties": {
+          "spcltyCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "spcltyDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "claimsUse": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Student": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "place": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

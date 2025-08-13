@@ -1,0 +1,449 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\caseeditgeneraldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\caseeditgeneraldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\repositories\\caserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\repositories\\caserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\repositories\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\repositories\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\casedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\casedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\casegeneraldetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\casegeneraldetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\casehandlerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\casehandlerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\controllers\\casegeneralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\controllers\\casegeneralcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\createcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\createcasedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\mduliabilitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\mduliabilitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\casetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\casetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\controllers\\casesearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\controllers\\casesearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\controllers\\getpractitionercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\controllers\\getpractitionercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\casman.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\casman.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\practitionerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\practitionerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\practitionerinsertmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\practitionerinsertmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\practitioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\practitioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\nonmempractitioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\nonmempractitioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|d:\\old-systemr-backups\\transferedfiles\\react\\crud\\casman\\casman\\models\\indemnifierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2578571C-1CD2-4C3B-B281-15726C120CF0}|casman\\casman.csproj|solutionrelative:casman\\models\\indemnifierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f6c90d9a-1aa8-32e5-baac-467b7262213c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICaseRepository.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Repositories\\ICaseRepository.cs",
+              "RelativeDocumentMoniker": "casman\\Repositories\\ICaseRepository.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Repositories\\ICaseRepository.cs",
+              "RelativeToolTip": "casman\\Repositories\\ICaseRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAlwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:44:37.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CaseRepository.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Repositories\\CaseRepository.cs",
+              "RelativeDocumentMoniker": "casman\\Repositories\\CaseRepository.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Repositories\\CaseRepository.cs",
+              "RelativeToolTip": "casman\\Repositories\\CaseRepository.cs",
+              "ViewState": "AgIAAHMBAAAAAAAAAAAAAH4BAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:39:00.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\appsettings.json",
+              "RelativeDocumentMoniker": "casman\\appsettings.json",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\appsettings.json",
+              "RelativeToolTip": "casman\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T05:07:23.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CaseHandlerDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseHandlerDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CaseHandlerDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseHandlerDto.cs",
+              "RelativeToolTip": "casman\\Models\\CaseHandlerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:27:30.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaseEditGeneralDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseEditGeneralDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CaseEditGeneralDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseEditGeneralDto.cs",
+              "RelativeToolTip": "casman\\Models\\CaseEditGeneralDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:50:15.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CaseDbContext.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseDbContext.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CaseDbContext.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseDbContext.cs",
+              "RelativeToolTip": "casman\\Models\\CaseDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:57:58.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Program.cs",
+              "RelativeDocumentMoniker": "casman\\Program.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Program.cs",
+              "RelativeToolTip": "casman\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T09:27:59.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CaseGeneralDetailDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseGeneralDetailDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CaseGeneralDetailDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseGeneralDetailDto.cs",
+              "RelativeToolTip": "casman\\Models\\CaseGeneralDetailDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T10:58:31.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CaseGeneralController.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\CaseGeneralController.cs",
+              "RelativeDocumentMoniker": "casman\\Controllers\\CaseGeneralController.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\CaseGeneralController.cs",
+              "RelativeToolTip": "casman\\Controllers\\CaseGeneralController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T06:54:37.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CategoryDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CategoryDto.cs",
+              "RelativeToolTip": "casman\\Models\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:26:16.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateCaseDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CreateCaseDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CreateCaseDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CreateCaseDto.cs",
+              "RelativeToolTip": "casman\\Models\\CreateCaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:32:42.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MduLiabilityDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\MduLiabilityDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\MduLiabilityDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\MduLiabilityDto.cs",
+              "RelativeToolTip": "casman\\Models\\MduLiabilityDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:05:51.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CaseTypeDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseTypeDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\CaseTypeDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\CaseTypeDto.cs",
+              "RelativeToolTip": "casman\\Models\\CaseTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:34:10.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CaseSearchController.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\CaseSearchController.cs",
+              "RelativeDocumentMoniker": "casman\\Controllers\\CaseSearchController.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\CaseSearchController.cs",
+              "RelativeToolTip": "casman\\Controllers\\CaseSearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:45:52.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetPractitionerController.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\GetPractitionerController.cs",
+              "RelativeDocumentMoniker": "casman\\Controllers\\GetPractitionerController.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\GetPractitionerController.cs",
+              "RelativeToolTip": "casman\\Controllers\\GetPractitionerController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T10:31:02.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "casman\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "casman\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T07:34:43.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PractitionerDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\PractitionerDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\PractitionerDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\PractitionerDto.cs",
+              "RelativeToolTip": "casman\\Models\\PractitionerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T10:30:59.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "casman.http",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\casman.http",
+              "RelativeDocumentMoniker": "casman\\casman.http",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\casman.http",
+              "RelativeToolTip": "casman\\casman.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-28T13:56:01.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PractitionerInsertModel.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\PractitionerInsertModel.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\PractitionerInsertModel.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\PractitionerInsertModel.cs",
+              "RelativeToolTip": "casman\\Models\\PractitionerInsertModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wBgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:16:16.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IndemnifierDto.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\IndemnifierDto.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\IndemnifierDto.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\IndemnifierDto.cs",
+              "RelativeToolTip": "casman\\Models\\IndemnifierDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:21:20.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Practitioner.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\Practitioner.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\Practitioner.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\Practitioner.cs",
+              "RelativeToolTip": "casman\\Models\\Practitioner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:33:10.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NonMemPractitioner.cs",
+              "DocumentMoniker": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\NonMemPractitioner.cs",
+              "RelativeDocumentMoniker": "casman\\Models\\NonMemPractitioner.cs",
+              "ToolTip": "D:\\OLD-systemr-backups\\TransferedFILES\\REACT\\CRUD\\casman\\casman\\Models\\NonMemPractitioner.cs",
+              "RelativeToolTip": "casman\\Models\\NonMemPractitioner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:06:33.032Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

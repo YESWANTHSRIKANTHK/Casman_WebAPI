@@ -1,0 +1,6 @@
+@casman_HostAddress = http://localhost:5038
+
+GET {{casman_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

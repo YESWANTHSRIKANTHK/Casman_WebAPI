@@ -1,0 +1,7 @@
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.csproj.AssemblyReference.cache
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.GeneratedMSBuildEditorConfig.editorconfig
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.AssemblyInfoInputs.cache
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.AssemblyInfo.cs
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.csproj.CoreCompileInputs.cache
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.MvcApplicationPartsAssemblyInfo.cs
+D:\OLD-systemr-backups\TransferedFILES\REACT\CRUD\casman\casman\obj\Debug\net5.0\casman.MvcApplicationPartsAssemblyInfo.cache
